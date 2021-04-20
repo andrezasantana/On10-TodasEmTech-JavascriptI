@@ -1,0 +1,29 @@
+*{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section-form{
+    background-color: #d3d3d3ff;
+    padding: 8px;
+}
+.titulo{
+    display: block;
+    margin: 0 auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.label {
+    color: rgb(61, 61, 61);
+    margin-bottom: 4px;
+}
+.input{
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.adicionar{
+    background-color:#008cbaff;
+    color: white;
+    padding: 10px;
+}
