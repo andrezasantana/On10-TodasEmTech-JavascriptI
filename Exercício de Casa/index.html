@@ -12,8 +12,8 @@
 <body>
     <main>
         <section class="section-form">
-            <img class="titulo" src="./image/titulo.png">
-            <form class="form" action="envio_dados">
+            <img class="img-titulo" src="./image/titulo.png">
+            <form class="form">
                 <label class="label" for="titulo">Título:</label>
                 <input class="input" type="text" id="titulo" name="titulo">
                 <label class="label" for="autor">Autor:</label>
@@ -25,10 +25,18 @@
                 <label class="label" for="paginas">Páginas:</label>
                 <input class="input" type="text" id="paginas" name="paginas">
                 <input class="adicionar" type="submit" id="adcionar" value="Adicionar Livro" name="adcionar">
-            </form>
         </section>
-        <section class="list">
-
+        <section class="section-list">
+            <table id="table">
+                <tr class="header-table">
+                    <th class="header-titulo">Título</th>
+                    <th class="header-autor">Autor</th>
+                    <th class="header-isbn">ISBN</th>
+                    <th class="header-publicacao">Data de Publicação</th>
+                    <th class="header-pagina">Páginas</th>
+                    <th class="header-insercao">Data da inserção</th>
+                </tr>
+            </table>
         </section>
     </main>
     <script src="./script/script.js"></script>

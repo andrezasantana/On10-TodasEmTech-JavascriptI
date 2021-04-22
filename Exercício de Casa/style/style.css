@@ -6,7 +6,7 @@
     background-color: #d3d3d3ff;
     padding: 8px;
 }
-.titulo{
+.img-titulo{
     display: block;
     margin: 0 auto;
 }
@@ -26,4 +26,23 @@
     background-color:#008cbaff;
     color: white;
     padding: 10px;
+}
+table{
+    margin-top: 30px;
+}
+.header-table th{
+width: 18%;
+text-align: center;
+border-right: 1px solid black;
+}
+.header-insercao{
+    border-right: none !important;
+}
+
+/* MOBILE */
+@media screen and (max-width: 400px) {
+    .img-titulo{
+        width: 100%;
+        margin: 0;
+    }
 }
