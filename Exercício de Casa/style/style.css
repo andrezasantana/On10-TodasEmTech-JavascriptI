@@ -1,10 +1,14 @@
+/* GERAL */
 *{
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.section-form{
+
+/* FORMULARIO */
+
+.section-form, .section-list{
     background-color: #d3d3d3ff;
-    padding: 8px;
+    padding: 5%;
 }
 .img-titulo{
     display: block;
@@ -27,22 +31,67 @@
     color: white;
     padding: 10px;
 }
+
+/* TABELA */
+
 table{
-    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.header-table{
+    visibility: hidden;
 }
 .header-table th{
-width: 18%;
-text-align: center;
-border-right: 1px solid black;
+    text-align: center;
+    border: 1px solid black;
+    background-color: gray;
+    color:white;
+    padding: 8px;
+}
+.header-titulo{
+    width: 24%;
+}
+.header-autor{
+    width: 20%;
+}
+.header-isbn{
+    width: 15%;
+}
+.header-publicacao{
+    width: 15%;
+}
+.header-pagina{
+    width: 8%;
 }
 .header-insercao{
-    border-right: none !important;
+    width: 18%;
 }
-
-/* MOBILE */
-@media screen and (max-width: 400px) {
-    .img-titulo{
-        width: 100%;
-        margin: 0;
-    }
+td{
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+.deletar{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+.tooltiptext{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    right: 0;
+}
+.deletar:hover .tooltiptext{
+    visibility: visible;
+    background-color: #008cbaff;
+    color:white;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 6px;
+    padding: 5px;
 }
